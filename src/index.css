@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.SCreen{
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width:80%;
+  font-size: 25px;
+  color: #fff;
+  margin-left: 15%;
+}
+
+.hang {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: yellow;
+  margin: 15px;
+}
+
+/* CSS cho ghế */
+.seat {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+
+
+.available {
+  background-color: #5C636A; /* Màu cho ghế trống */
+}
+
+.selected {
+  background-color: #00ff00; /* Màu cho ghế đã chọn */
+}
+
+.booked {
+  background-color: red; /* Màu cho ghế đã đặt */
+}
+
+/* CSS cho chú thích */
+.legend {
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.legend-item .seat {
+  margin-right: 5px;
+}
+
+
